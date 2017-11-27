@@ -20,3 +20,9 @@
     position:absolute;
     margin:0 25%;
 }
+#admin_body_gvSp th, #admin_body_grSP th{
+    text-align:center!important;
+    background-color:blue;
+    font-weight:bold;
+    color:white;
+}

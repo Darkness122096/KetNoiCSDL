@@ -31,6 +31,7 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right" runat="server" id="ulUser" Visible="false">
                             <li><asp:Label runat="server" ID="lbluser"></asp:Label></li>
+                            <asp:Button  ID="btnLogouts" CssClass="btn btn-info" runat="server" OnClick="btnLogouts_Click" Text="Logout"/>
                         </ul>
                     </div>
                 </nav>

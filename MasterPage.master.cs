@@ -16,4 +16,11 @@ public partial class MasterPage : System.Web.UI.MasterPage
             lbluser.Text = Session["fullname"].ToString();
         }
     }
+
+    protected void btnLogouts_Click(object sender, EventArgs e)
+    {
+        Session["user"] = null;
+        Session["fullname"] = null;
+        Response.Redirect("~/TrangChu.aspx");
+    }
 }
