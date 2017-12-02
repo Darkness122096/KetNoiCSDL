@@ -41,4 +41,9 @@ public partial class SanPham : System.Web.UI.Page
             lbIndex.Text = (e.Row.RowIndex + 1).ToString();
         }
     }
+
+    protected void imgAdd_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("ThemSanPham.aspx");
+    }
 }
